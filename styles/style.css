@@ -1,0 +1,78 @@
+/* -------------
+Fonts 
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* ---------------
+Common Styling 
+-------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 50px 140px 0;
+    border: 1px solid gray;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ---------------
+Header Styling starts
+------------------*/
+
+header{
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.banner-text{
+    width: 531px;
+    margin: 111px 0 111px 106px;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-text p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.banner-text a{
+    text-decoration: none;
+    background: #DD0000;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 16px 16px 17px 25px;
+}
+
+.fa-greater-than{
+    margin-left: 10px;
+}
+.banner-image{
+    width: 581px;
+}
+
+/* ---------------
+Header Styling ends
+------------------*/
+
+/* ---------------
+Section Blog Styling starts
+------------------*/
+
+
+
+
+/* ---------------
+Section Blog Styling ends
+------------------*/
