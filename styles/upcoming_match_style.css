@@ -48,12 +48,17 @@ header{
     margin-bottom: 30px;
 }
 .banner-text a{
-    background: #DD0000;
+    background: #428BCA;
     border-radius: 5px;
     text-align: center;
     color: white;
     font-size: 20px;
     padding: 16px 16px 17px 25px;
+    transition: all 0.5s ease 0s;
+}
+.banner-text a:hover{
+    background-color: #DD0000;
+    box-shadow: inset 0 0 0 5px #632323;
 }
 
 .fa-greater-than{
@@ -195,6 +200,10 @@ footer{
     color: #B9B9B9;
 }
 
+.social-icon{
+    font-size: 24px;
+}
+
 /* ---------------
 Footer Styling ends
 ------------------*/
@@ -207,7 +216,7 @@ Footer Styling ends
 /*---------------
  Tablet View 
  -------------*/
- @media (min-width: 700px) and (max-width: 834px)
+ @media screen and (min-width: 700px) and (max-width: 992px)
 {
     /* ---------------
     Top Banner Styling 
@@ -238,18 +247,18 @@ Footer Styling ends
     Blog Section Styling 
     ------------------*/
 
-    .transfer-details{
+    .match-schedule{
         flex-direction: column;
     
     }
-    .transfer-details .navigation-menu{
+    .match-schedule .navigation-menu{
         flex-direction: row;
         background-color: white;
         width: 100%;
         height: 100%;
         gap: 20px;
     }
-    .transfer-details .navigation-menu li{
+    .match-schedule .navigation-menu li{
         border: 1px solid #E8E8E8;
         width: 210px;
     }
@@ -259,16 +268,20 @@ Footer Styling ends
         padding: 17px 28px;
     }
 
-    .blogs{
+    .fixtures{
         grid-template-columns: repeat(2,1fr);   
         /* margin-bottom: 130px; */
         margin: 0 auto;
+        position: relative;
      }
      .blogs .hide-blog{
         display: none;
      }
-     #view-all-button{
+     a#view-all-button{
         display: block;
+        position: absolute;
+        top: 1788px;
+        left: 300px;
      }
 
      /* ---------------

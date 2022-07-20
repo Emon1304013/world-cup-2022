@@ -88,6 +88,10 @@ Section Blog Styling starts
     margin-bottom: 140px;
 
 }
+.blogs img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 /* -------------------
 Style for Blog Navigation Menu 
@@ -229,6 +233,9 @@ footer{
 .footer-details li a{
     color: #B9B9B9;
 }
+.social-icon{
+    font-size: 24px;
+}
 
 /* ---------------
 Footer Styling ends
@@ -242,7 +249,7 @@ Footer Styling ends
 /*---------------
  Tablet View 
  -------------*/
- @media (min-width: 700px) and (max-width: 834px)
+ @media screen and (min-width: 700px) and (max-width: 992px)
 {
     /* ---------------
     Top Banner Styling 
@@ -304,6 +311,9 @@ Footer Styling ends
      }
      #view-all-button{
         display: block;
+        position: absolute;
+        top: 1800px;
+        left: 300px;
      }
 
      /* ---------------
