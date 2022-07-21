@@ -64,7 +64,7 @@ header{
     margin-left: 10px;
 }
 .banner-image img{
-    width: 581px;
+    width: 100%;
 }
 
 /* ---------------
@@ -248,11 +248,14 @@ Footer Styling ends
 /*---------------
  Tablet View 
  -------------*/
- @media screen and (min-width: 700px) and (max-width: 992px)
+ @media screen and (min-width: 700px) and (max-width: 1024px)
 {
     /* ---------------
     Top Banner Styling 
     ------------------*/
+    header{
+        margin: 50px;
+    }
     .banner-text{
         width: 316px;
         margin: 61px 10px 61px 76px;
@@ -268,7 +271,7 @@ Footer Styling ends
         font-size: 14px;
     }
     .banner-image img{
-        width: 323px;
+        width: 95%;
     }
 
     /* ---------------
@@ -281,6 +284,7 @@ Footer Styling ends
 
     .transfer-details{
         flex-direction: column;
+        margin-bottom: 50px;
     
     }
     .transfer-details .navigation-menu{
@@ -309,9 +313,6 @@ Footer Styling ends
      }
      #view-all-button{
         display: block;
-        /* position: absolute;
-        top: 1800px;
-        left: 300px; */
      }
 
      /* ---------------
@@ -396,9 +397,13 @@ Mobile Device View
     margin-right: 0;
     margin-bottom: 20px;
 }
+.social-icon{
+    font-size: 18px;
+}
+
 ul.social-icon li{
     display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

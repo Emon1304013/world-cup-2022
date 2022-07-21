@@ -65,7 +65,7 @@ header{
     margin-left: 10px;
 }
 .banner-image{
-    width: 581px;
+    width: 531px;
 }
 
 /* ---------------
@@ -106,7 +106,7 @@ Style for Match Schedule Navigation Menu
     list-style-type: none;
     width: 252px;
     height: 64px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 10px;
 
@@ -216,11 +216,15 @@ Footer Styling ends
 /*---------------
  Tablet View 
  -------------*/
- @media screen and (min-width: 700px) and (max-width: 992px)
+ @media screen and (min-width: 700px) and (max-width: 1024px)
 {
     /* ---------------
     Top Banner Styling 
     ------------------*/
+
+    header{
+        margin: 50px;
+    }
     .banner-text{
         width: 316px;
         margin: 61px 10px 61px 76px;
@@ -236,7 +240,7 @@ Footer Styling ends
         font-size: 14px;
     }
     .banner-image img{
-        width: 323px;
+        width: 95%;
     }
 
     /* ---------------
@@ -249,6 +253,7 @@ Footer Styling ends
 
     .match-schedule{
         flex-direction: column;
+        margin-bottom: 50px;
     
     }
     .match-schedule .navigation-menu{
@@ -365,9 +370,12 @@ Mobile Device View
     margin-right: 0;
     margin-bottom: 20px;
 }
+.social-icon{
+    font-size: 18px;
+}
 ul.social-icon li{
     display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
