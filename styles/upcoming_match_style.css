@@ -64,7 +64,7 @@ header{
 .fa-greater-than{
     margin-left: 10px;
 }
-.banner-image{
+.banner-image img{
     width: 531px;
 }
 
@@ -240,7 +240,7 @@ Footer Styling ends
         font-size: 14px;
     }
     .banner-image img{
-        width: 95%;
+        width: 320px;
     }
 
     /* ---------------
@@ -304,6 +304,39 @@ Footer Styling ends
     margin-bottom: 30px;
 }
 }
+
+
+
+/* Medium Sized Devices */
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+    .match-schedule{
+        flex-direction: column;
+        margin-bottom: 50px;
+    
+    }
+    .match-schedule .navigation-menu{
+        flex-direction: row;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        gap: 5vw;
+    }
+    .match-schedule .navigation-menu li{
+        border: 1px solid #E8E8E8;
+        width: 250px;
+    }
+    .navigation-menu li a{
+        padding: 20px;
+    }
+    .fixtures{
+        grid-gap: 10px;  
+        margin: 0 auto;
+     }
+}
+
+/* Medium Sized Devices */
+
+
 
 /*---------------
 Mobile Device View 
